@@ -28,5 +28,5 @@ jobs:
               uses: actions/upload-artifacts@v4
               with:
                   name: raact-build
-                  path: /dist
+                  path: dist/
                   retention-days: 8
