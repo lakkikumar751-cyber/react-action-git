@@ -19,7 +19,7 @@ jobs:
               run: npm ci
 
             - name: run eslint
-              run: npm run eslint
+              run: npm run lint
 
             - name: make react build 
               run: npm run build
