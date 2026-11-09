@@ -23,3 +23,10 @@ jobs:
 
             - name: make react build 
               run: npm run build
+
+            - name: create artifacts
+              uses: actions/upload-artifacts@v4
+              with:
+                  name: raact-build
+                  path: /dist
+                  retention-days: 8
